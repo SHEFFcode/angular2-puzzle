@@ -2,6 +2,7 @@
   "name": "angular2-boilerplate",
   "version": "1.0.0",
   "scripts": {
+    "preinstall" : "npm install",
     "postinstall": "npm run typings install",
     "lite": "lite-server",
     "gulp": "gulp",
